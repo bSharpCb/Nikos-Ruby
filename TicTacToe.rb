@@ -135,7 +135,7 @@ class Board
         puts
         # loop through data structure
         @board.each do |row|
-            row.eachd do |cell|
+            row.each do |cell|
                 # display an existing marker if any, else blank
                 cell.nil? ? print("-") : print(cell.to_s)
             end
